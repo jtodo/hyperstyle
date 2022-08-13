@@ -14,6 +14,9 @@ dataset_paths = {
 	'afhq_wild_train': '',
 	'afhq_wild_test': '',
 
+	'twdnev3': '/content/data/train',
+	'twdnev3_test': '/content/data/test'
+
 }
 
 model_paths = {
@@ -40,6 +43,7 @@ model_paths = {
 	'restyle_e4e_ffhq': 'pretrained_models/restyle_e4e_ffhq_encode.pt',
 	'stylegan_pixar': 'pretrained_models/pixar.pt',
 	'stylegan_toonify': 'pretrained_models/ffhq_cartoon_blended.pt',
+	'stylegan_twdnev3': 'pretrained_models/twdne3_ckpt.pt',
 	'stylegan_sketch': 'pretrained_models/sketch.pt',
 	'stylegan_disney': 'pretrained_models/disney_princess.pt'
 }

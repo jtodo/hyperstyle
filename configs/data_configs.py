@@ -32,5 +32,12 @@ DATASETS = {
 		'train_target_root': dataset_paths['afhq_wild_train'],
 		'test_source_root': dataset_paths['afhq_wild_test'],
 		'test_target_root': dataset_paths['afhq_wild_test']
+	},
+	"twdnev3": {
+		'transforms': transforms_config.EncodeTransforms,
+		'train_source_root': dataset_paths['twdnev3'],
+		'train_target_root': dataset_paths['twdnev3'],
+		'test_source_root': dataset_paths['twdnev3_test'],
+		'test_target_root': dataset_paths['twdnev3_test']
 	}
 }
