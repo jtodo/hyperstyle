@@ -21,7 +21,7 @@ class WEncoder(Module):
                                       BatchNorm2d(64),
                                       PReLU(64))
         self.output_pool = torch.nn.AdaptiveAvgPool2d((1, 1))
-        self.linear = EqualLinear(256, 1024, lr_mul=1)
+        self.linear = EqualLinear(512, 512, lr_mul=1)
         modules = []
         for block in blocks:
             for bottleneck in block:
